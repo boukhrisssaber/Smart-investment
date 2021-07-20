@@ -1,0 +1,10 @@
+.idea/
+.vscode/
+__pycache__/
+env/
+market/__pycache__/
+market/model_eval.py
+market/load_model.py
+market/routesBackup.py
+market/templates/profile.html
+market/templates/stock_demo.html
