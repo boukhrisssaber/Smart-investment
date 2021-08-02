@@ -19,6 +19,6 @@ scikit-learn==0.24.2
 sklearn==0.0
 SQLAlchemy==1.4.17
 statsmodels==0.12.2
-tensorflow==3.1.1
+tensorflow==2.5.0
 WTForms==2.3.3
 yfinance==0.1.63
