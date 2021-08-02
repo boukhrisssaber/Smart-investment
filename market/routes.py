@@ -1,8 +1,6 @@
-from os import abort
 from market import app, db, bcrypt, mail
 from flask import render_template, redirect, url_for, flash, request
-import requests
-from market.models import Stock, User, StockData
+from market.models import Stock, User
 from market.forms import (RegisterForm, LoginForm, PurchaseStockForm, 
                             SellStockForm, RequestResetForm, ResetPasswordForm)
 from flask_login import login_user, logout_user, login_required, current_user
@@ -14,9 +12,8 @@ import yfinance as yf
 from keras.models import load_model
 import pandas as pd
 import numpy as np
-import math
 from sklearn.preprocessing import MinMaxScaler
-import matplotlib.pyplot as plt, mpld3
+import matplotlib.pyplot as plt
 pd.options.plotting.backend = "plotly"
 
 
