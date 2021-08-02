@@ -7,9 +7,6 @@ from flask_login import LoginManager
 from flask_admin import Admin
 from flask_mail import Mail
 
-from dotenv import load_dotenv
-load_dotenv()
-
 app = Flask(__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///market.db'
