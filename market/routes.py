@@ -6,7 +6,6 @@ from market.forms import (RegisterForm, LoginForm, PurchaseStockForm,
 from flask_login import login_user, logout_user, login_required, current_user
 from flask_mail import Message
 import json
-import plotly
 import plotly.express as px
 import yfinance as yf
 from keras.models import load_model
