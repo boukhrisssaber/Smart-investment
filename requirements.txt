@@ -18,3 +18,5 @@ sklearn==0.0
 SQLAlchemy==1.4.17
 WTForms==2.3.3
 yfinance==0.1.63
+tensorflow==2.5.0
+h5py==3.1.0
