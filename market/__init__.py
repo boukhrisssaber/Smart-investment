@@ -9,7 +9,7 @@ from flask_mail import Mail
 app = Flask(__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///market.db'
-app.config['SECRET_KEY'] = 'd7e44ed564a4a2e699c6e4f1'
+app.config['SECRET_KEY'] = ''
 
 admin = Admin(app)
 
