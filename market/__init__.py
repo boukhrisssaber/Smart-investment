@@ -25,8 +25,8 @@ app.config.update(
 MAIL_SERVER='smtp.hushmail.com',
 MAIL_PORT='587',
 MAIL_USE_TLS=True,
-MAIL_USERNAME='boukhrisssaber@gmail.com',#env['EMAIL_USER']'',
-MAIL_PASSWORD='Arcwave13',#env['EMAIL_PASS'])
+MAIL_USERNAME='',#env['EMAIL_USER']'',
+MAIL_PASSWORD='',#env['EMAIL_PASS'])
 )
 mail = Mail(app)
 
